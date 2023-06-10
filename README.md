@@ -25,15 +25,15 @@ None
 ## Example usage
 
 ```yaml
-uses: jpetrucciani/bandit-check@main
+uses: rpiraces-plain/bandit-check@main
 
 # specify a path
-uses: jpetrucciani/bandit-check@main
+uses: rpiraces-plain/bandit-check@main
 with:
   path: '.'
 
 # provide some flags
-uses: jpetrucciani/bandit-check@main
+uses: rpiraces-plain/bandit-check@main
 with:
   bandit_flags: '-lll -o output.json -f json'
 ```
