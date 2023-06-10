@@ -1,6 +1,6 @@
 # action.yml
-name: 'Bandit Check'
-description: 'GitHub action to lint your python code with bandit'
+name: 'Bandit with SARIF support'
+description: 'GitHub action to lint your python code with bandit (with SARIF format/output support)'
 branding:
   icon: 'shield'
   color: 'blue'
